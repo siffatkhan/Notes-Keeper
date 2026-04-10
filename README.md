@@ -16,7 +16,42 @@ Check the live project here: [Note Keeper Live](https://notekeeperbysifat.netlif
 - **Build & Deployment:** Netlify
 - **Package Management:** npm
 
-## Installation
-1. Clone the repo:
+
+
+##  Project Structure
+
+```
+
+src/
+├── components/
+│   ├── Note.js
+│   └── NoteList.js
+├── App.js
+└── index.js
+
+````
+
+
+## ⚡ Getting Started
+
+1. **Clone the repository**
+
 ```bash
-git clone https://github.com/yourusername/notekeeper-app.git
+git clone https://github.com/your-username/react-note-keeping-app.git
+cd react-note-keeping-app
+````
+
+2. **Install dependencies**
+
+```bash
+npm install
+```
+
+3. **Run the app**
+
+```bash
+npm start
+```
+
+
+---
